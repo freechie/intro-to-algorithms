@@ -19,12 +19,12 @@ This repository does not require frontend build tooling.
 The study tracker lives in `docs/index.html`, with its CSS and JavaScript kept in the same directory. Configure GitHub Pages to publish from the `main` branch's `/docs` folder so the tracker remains available at:
 
 ```text
-https://richtxteditor.github.io/dsa
+https://freechie.github.io/algorithms/
 ```
 
 ## Project Status and Next Steps
 
-For an interactive, up-to-date view of the project plan and study progress, please see the **[Consolidated Study Plan](https://freechie.github.io/algorithms)**.
+For an interactive, up-to-date view of the project plan and study progress, please see the **[Consolidated Study Plan](https://freechie.github.io/algorithms/)**.
 
 ### Completed Milestones
 
