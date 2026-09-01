@@ -85,3 +85,6 @@ Carthage/Build
 *.tmp
 *.swp
 *.swo
+
+# Local C demo notes
+Matrices/Matrices/NOTES.md
