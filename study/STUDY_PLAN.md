@@ -17,7 +17,7 @@ Sections already done, from `study/tasks/todo.md`: Udemy intro, recursion, array
 1. Compile and run the existing demo. About 10 minutes.
 
 ```bash
-cd /Users/what/Sites/algorithms/cpp/DSA-Project
+cd /Users/what/Sites/intro-to-algorithms/cpp/DSA-Project
 g++ -std=gnu++20 -Wall -Wextra main.cpp algo/strings.cpp -o advanced_array_demo
 ./advanced_array_demo
 ```
