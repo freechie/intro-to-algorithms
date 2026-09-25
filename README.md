@@ -4,12 +4,13 @@
 
 This project implements a dynamic array class in C++ from first principles. It serves as a foundational exercise for understanding data structure mechanics, memory management, and algorithm implementation. The goal is not to replace standard library containers like `std::vector`, but to learn how such containers operate under the hood.
 
-The current implementation lives in `DSA-Project/` and provides a header-only `Array<T>` template class, plus an interactive command-line menu for testing the available functionality. It covers basic CRUD operations, search algorithms, set operations, and more complex analysis algorithms for finding missing elements and duplicates. A detailed breakdown of time and space complexity is available in `DSA-Project/complexity_docs.md`.
+The current implementation lives in `cpp/DSA-Project/` and provides a header-only `Array<T>` template class, plus an interactive command-line menu for testing the available functionality. It covers basic CRUD operations, search algorithms, set operations, and more complex analysis algorithms for finding missing elements and duplicates. A detailed breakdown of time and space complexity is available in `cpp/DSA-Project/complexity_docs.md`.
 
 ## Repository Layout
 
-- `DSA-Project/` contains the active C++ data structures and algorithms project.
-- `completed-projects/`, `Matrices/`, and `MatricesCPP/` contain earlier standalone practice exercises.
+- `cpp/DSA-Project/` contains the active C++ data structures and algorithms project.
+- `cpp/completed-projects/`, `cpp/Matrices/`, and `cpp/MatricesCPP/` contain earlier standalone practice exercises.
+- `study/` contains the study plan, task list, and local course notes.
 - `docs/` contains the static study tracker served by GitHub Pages.
 
 This repository does not require frontend build tooling.
@@ -104,7 +105,7 @@ This code demonstrates several key C++ programming concepts:
 2. Compile the code from your terminal:
 
     ```bash
-    cd DSA-Project
+    cd cpp/DSA-Project
     g++ -std=gnu++20 -Wall -Wextra main.cpp algo/strings.cpp -o advanced_array_demo
     ```
 

@@ -11,12 +11,14 @@
 - [x] **dsa-done-6**: Duplicate-finding methods
 
 ## In Progress
-- [/] **udemy-s6-1**: Matrix representations (Lower Triangular done; remaining: Diagonal, Upper, Symmetric)
 - [/] **dsa-task-4**: Makefile/CMake workflow
 
 ## Next
-- [ ] **udemy-s7-1**: Singly Linked List
-- [ ] **dsa-task-3**: Merge/Quick Sort in `Array`
+- [ ] **udemy-s7-1**: Singly Linked List (Week 2 of `study/STUDY_PLAN.md`; do not restart sections 1–5)
+- [ ] **dsa-task-3**: Merge/Quick Sort in `Array` (after Week 1; parked until the linked list exists)
+
+## Parked
+- [ ] **udemy-s6-1**: Matrix representations (Lower Triangular done; Diagonal, Upper, Symmetric wait until interviews are steady)
 
 ## Backlog
 - [ ] **udemy-s7-2**: Linked-list variants

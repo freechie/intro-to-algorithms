@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#include "array.h"
+#include "../ds/array.h"
 #include "strings.h"
 #include <string>
 #include <sstream>
