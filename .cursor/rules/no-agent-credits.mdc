@@ -1,0 +1,14 @@
+---
+description: Never show or record agent, bot, or tool credits
+alwaysApply: true
+---
+
+# No agent credits
+
+The person who owns this work is the only author other people should see.
+
+- Do not add Co-authored-by, Signed-off-by, Generated-by, or any other trailer that names an agent, bot, or tool.
+- Do not add contributor notes, footers, comments, or pull request text that credit an agent, bot, or tool.
+- Commits use the human name and email already on this repository's history. Never commit as an agent or a bot.
+- Do not print an agent or bot name or email in replies, commit messages, or pull requests.
+- Do not rewrite history to add or remove credits unless the person asks.

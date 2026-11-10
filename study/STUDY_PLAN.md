@@ -1,5 +1,7 @@
 # 6.006 Spring 2020 — OA study plan
 
+The session is [`TODAY.md`](../TODAY.md). Do that one task and stop. Open a lecture from this file when a problem is stuck.
+
 Course on disk: `study/6.006-spring-2020/` (Demaine, Ku, Solomon).
 C++ work on disk: `cpp/DSA-Project/` (Abdul Bari course, already through arrays and strings).
 Open a lecture from the local page. The player loads from YouTube, so you need a network connection. Notes and problem-set PDFs are already local.

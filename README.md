@@ -1,11 +1,12 @@
 # Introduction to Algorithms
 
-Study notes and practice for MIT 6.006 (Spring 2020, Demaine, Ku, and Solomon), plus a weekly C++ track from Abdul Bari’s data-structures course.
+The daily session is [TODAY.md](TODAY.md). Open that file and stop when it is done. It is one Python problem. After the first three, it is one mock-interview replay from the book site at [bctci.co](https://bctci.co).
 
-Daily problem practice is in Python. The plan, lecture paths, and weekly schedule are in [`study/STUDY_PLAN.md`](study/STUDY_PLAN.md).
+Study notes for MIT 6.006 (Spring 2020, Demaine, Ku, and Solomon) and the C++ track from Abdul Bari’s data-structures course stay in [`study/STUDY_PLAN.md`](study/STUDY_PLAN.md). Open a lecture from that plan when a problem is stuck.
 
 ## Repository layout
 
+- `TODAY.md` is the one task for the session. `practice/` holds the problem list, the log, and the Python file for the current problem.
 - `study/` holds the study plan, the task list, and the local course dump (`study/6.006-spring-2020/`, gitignored).
 - `docs/` is the study tracker published with GitHub Pages.
 - `cpp/` holds the C++ exercises. The active project is `cpp/DSA-Project/`; earlier exercises are in `cpp/completed-projects/`, `cpp/Matrices/`, and `cpp/MatricesCPP/`.

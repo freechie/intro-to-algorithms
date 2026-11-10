@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "pattern": "arrays and hashing",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "minutes": 25,
+    "filename": "practice/python/contains_duplicate.py",
+    "method": "containsDuplicate",
+    "signature": "def containsDuplicate(self, nums: List[int]) -> bool:",
+    "hint": "A hash set holds each number you have already seen."
+  },
+  {
+    "slug": "valid-anagram",
+    "title": "Valid Anagram",
+    "pattern": "arrays and hashing",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "minutes": 25,
+    "filename": "practice/python/valid_anagram.py",
+    "method": "isAnagram",
+    "signature": "def isAnagram(self, s: str, t: str) -> bool:",
+    "hint": "Count the letters in each string. The counts match when the words are anagrams."
+  },
+  {
+    "slug": "two-sum",
+    "title": "Two Sum",
+    "pattern": "arrays and hashing",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "minutes": 25,
+    "filename": "practice/python/two_sum.py",
+    "method": "twoSum",
+    "signature": "def twoSum(self, nums: List[int], target: int) -> List[int]:",
+    "hint": "A hash map stores the index of each number you have seen. Look for the target minus the current number."
+  },
+  {
+    "kind": "replay",
+    "slug": "bctci-python-graph-replay",
+    "title": "Watch one mock interview",
+    "pattern": "mock interview",
+    "url": "https://start.interviewing.io/showcase/hJ717oe4XhaB",
+    "minutes": 25,
+    "filename": "practice/notes/bctci-python-graph-replay.md",
+    "hint": "Write what the candidate said before they started coding."
+  },
+  {
+    "slug": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "pattern": "two pointers",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "minutes": 25,
+    "filename": "practice/python/valid_palindrome.py",
+    "method": "isPalindrome",
+    "signature": "def isPalindrome(self, s: str) -> bool:",
+    "hint": "Move a pointer from each end. Skip anything that is not a letter or a digit. The letters you compare should match."
+  },
+  {
+    "slug": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "pattern": "sliding window",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "minutes": 25,
+    "filename": "practice/python/best_time_to_buy_and_sell_stock.py",
+    "method": "maxProfit",
+    "signature": "def maxProfit(self, prices: List[int]) -> int:",
+    "hint": "Keep the lowest price so far. The profit is the current price minus that low price."
+  },
+  {
+    "slug": "binary-search",
+    "title": "Binary Search",
+    "pattern": "binary search",
+    "url": "https://leetcode.com/problems/binary-search/",
+    "minutes": 25,
+    "filename": "practice/python/binary_search.py",
+    "method": "search",
+    "signature": "def search(self, nums: List[int], target: int) -> int:",
+    "hint": "Keep a left index and a right index. Compare the middle value with the target and drop the half that cannot contain it."
+  },
+  {
+    "slug": "group-anagrams",
+    "title": "Group Anagrams",
+    "pattern": "arrays and hashing",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "minutes": 30,
+    "filename": "practice/python/group_anagrams.py",
+    "method": "groupAnagrams",
+    "signature": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:",
+    "hint": "Words that are anagrams look the same once their letters are sorted. Use that sorted word as the map key."
+  },
+  {
+    "slug": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "pattern": "sliding window",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "minutes": 30,
+    "filename": "practice/python/longest_substring_without_repeating.py",
+    "method": "lengthOfLongestSubstring",
+    "signature": "def lengthOfLongestSubstring(self, s: str) -> int:",
+    "hint": "The window grows on the right. When a character repeats, move the left side until the repeat is gone."
+  },
+  {
+    "slug": "search-a-2d-matrix",
+    "title": "Search a 2D Matrix",
+    "pattern": "binary search",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "minutes": 30,
+    "filename": "practice/python/search_a_2d_matrix.py",
+    "method": "searchMatrix",
+    "signature": "def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:",
+    "hint": "The matrix is sorted as one long list. Binary search that list, then turn the index back into a row and a column."
+  },
+  {
+    "slug": "3sum",
+    "title": "3Sum",
+    "pattern": "two pointers",
+    "url": "https://leetcode.com/problems/3sum/",
+    "minutes": 30,
+    "filename": "practice/python/three_sum.py",
+    "method": "threeSum",
+    "signature": "def threeSum(self, nums: List[int]) -> List[List[int]]:",
+    "hint": "Sort the numbers. Fix one number, then move pointers from both ends to find pairs that sum to its opposite."
+  }
+]
