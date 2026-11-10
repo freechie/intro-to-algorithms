@@ -2,7 +2,7 @@
 
 - The user makes every commit. After a change they might commit, give a paste-ready commit message without waiting to be asked.
 - The root README is the study overview. Keep C++ build steps and the Array feature list in `cpp/DSA-Project/README.md`.
-- Keep the GitHub Pages tracker short and matched to the current study plan. Do not list the full OCW calendar, CLRS, or CTCI as equal tasks.
+- Keep the GitHub Pages tracker short and matched to the current study plan. Do not list the full OCW calendar as an equal task. Beyond Cracking the Coding Interview replaces CTCI, and its order stays in `study/STUDY.org`. CLRS chapters sit with the matching 6.006 lecture in `study/STUDY_PLAN.md`.
 - The tracker theme control is only Light and Dark. A fresh load follows the system color scheme.
 
 ## Learned Workspace Facts

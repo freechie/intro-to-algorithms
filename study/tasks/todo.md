@@ -27,7 +27,7 @@
 ## Backlog
 
 - [ ] `udemy-s7-2` Linked-list variants
-- [ ] Stacks and queues, `clrs-ch10`, `udemy-s9-1`, and `udemy-s10-1`
+- [ ] Stacks and queues. CLRS sections 10.1 and 10.2. This is week 3 of the [study plan](../STUDY_PLAN.md), `udemy-s9-1` and `udemy-s10-1`.
 - [ ] Hash table collision strategies, `udemy-s12-1`
 - [ ] Advanced sorting, `udemy-s13-2`
 - [ ] Trees and BSTs, `udemy-s11-1` through `udemy-s11-3`

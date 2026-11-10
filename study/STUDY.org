@@ -1,4 +1,5 @@
 * BCTCI
+Beyond Cracking the Coding Interview. This replaces Cracking the Coding Interview.
 Do this heading's TODO only. The list under it waits.
 ** TODO skim book/Sneak Peak BCTCI - Sliding Windows & Binary Search pp 168-169 (15 min)
 1. 29.1 Search in Sorted Array (60-90 min). Code: =practice/binary_search/p29_01_search_in_sorted_array.py=.
@@ -46,10 +47,10 @@ Compile and run =cpp/DSA-Project=. Read =Append=, =Insert=, and =BinarySearchLoo
 3. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/][L3 Sets and sorting]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-3-sorting.pdf][lecture 3 PDF]].
 4. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/][L4 Hashing]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-4-hashing.pdf][lecture 4 PDF]].
 5. NeetCode: two pointers, sliding window, binary search. Drill after L4.
-** Day (about 4 hours)
+** Day (about 4.5 hours)
 Interview morning: one 20-minute Python easy. No new lecture.
 
-1. Do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes.
+1. Do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes. Then read the CLRS sections named for that lecture in [[file:STUDY_PLAN.md][STUDY_PLAN.md]]. About 25 minutes.
 2. In [[file:log.org][log.org]], write four lines: pattern, when, time, space. Code that structure once from memory in Python. About 40 minutes.
 3. Two NeetCode mediums in Python. First untimed. Second capped at 30 minutes. About 90 minutes.
 4. One course problem in Python, or stop at 45 minutes and read that week's solutions PDF. About 45 minutes.
