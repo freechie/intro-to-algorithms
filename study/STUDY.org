@@ -1,0 +1,60 @@
+* BCTCI
+Do this heading's TODO only. The list under it waits.
+** TODO skim book/Sneak Peak BCTCI - Sliding Windows & Binary Search pp 168-169 (15 min)
+1. 29.1 Search in Sorted Array (60-90 min). Code: =practice/binary_search/p29_01_search_in_sorted_array.py=.
+2. Write the company list in [[file:../notes/companies.org][companies.org]] (30-45 min).
+** Maker (60-90 min)
+1. Do the TODO under * BCTCI.
+2. Skim [[file:../notes/cheat-sheet.org][cheat-sheet.org]], including Recurring bugs.
+3. One problem. [[file:../worksheets/Interview_checklist.png][Interview checklist]]. Talk out loud. BHDCA once if stuck.
+4. Re-read Recurring bugs, then verify the code.
+5. Capture p. At most one cheat-sheet recipe. Repeating mistakes go on Recurring bugs with no cap.
+
+[[file:../worksheets/Boosters.png][Boosters]] sits next to the checklist. Fill it when the book arrives, not during a maker block.
+** Manager (30-45 min)
+1. When the BCTCI TODO is the company list, do that item.
+2. Stop.
+** When the book arrives
+Read in this order. These lines are not TODOs.
+
+1. Worksheets PDF p.1
+2. Ch 18
+3. Ch 19-24
+4. Tier 1 catalog 25-36. Continue Binary Search. Do not restart it.
+5. Tier 2 later
+6. Ch 8 then 9 on manager days
+7. Behavioral 15-17 with mocks
+8. Offers 10-14 when an offer exists
+
+Sliding Windows waits until after Two Pointers.
+* 6.006
+Do this heading's TODO only. When it is empty, open [[file:STUDY_PLAN.md][STUDY_PLAN.md]].
+** TODO C++ revival (45 min)
+Compile and run =cpp/DSA-Project=. Read =Append=, =Insert=, and =BinarySearchLoop= in =cpp/DSA-Project/ds/array.h=.
+1. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/][L1 Algorithms and computation]]. Notes: [[file:6.006-spring-2020/week-01/lectures/lecture-1-introduction.pdf][lecture 1 PDF]].
+2. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynamic-arrays/][L2 Dynamic arrays]]. Notes: [[file:6.006-spring-2020/week-01/lectures/lecture-2-data-structures.pdf][lecture 2 PDF]].
+3. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/][L3 Sets and sorting]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-3-sorting.pdf][lecture 3 PDF]].
+4. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/][L4 Hashing]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-4-hashing.pdf][lecture 4 PDF]].
+5. NeetCode: two pointers, sliding window, binary search. Drill after L4.
+** Day (about 4 hours)
+Interview morning: one 20-minute Python easy. No new lecture.
+
+1. Do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes.
+2. In [[file:log.org][log.org]], write four lines: pattern, when, time, space. Code that structure once from memory in Python. About 40 minutes.
+3. Two NeetCode mediums in Python. First untimed. Second capped at 30 minutes. About 90 minutes.
+4. One course problem in Python, or stop at 45 minutes and read that week's solutions PDF. About 45 minutes.
+5. Capture d. One sentence: what you would try first next time. About 10 minutes.
+
+The week's C++ block replaces step 4 on a day with no interview.
+
+Later weeks live in the plan: trees and heaps, graphs, dynamic programming, then two timed sets a week.
+* Files
+Capture is C-c c or SPC a o c. Key p is a post-mortem. Key d is the 6.006 day log. Key o is outreach.
+- study/STUDY.org :: this file. Agenda reads it only.
+- study/log.org :: post-mortems and day sentences
+- study/STUDY_PLAN.md :: 6.006 schedule, opened when * 6.006 has no TODO
+- notes/cheat-sheet.org :: BCTCI recipes and recurring bugs
+- notes/companies.org :: one heading per company
+- practice/ :: BCTCI code
+- book/ and worksheets/ :: local publisher files
+- cpp/DSA-Project/ :: C++ track
