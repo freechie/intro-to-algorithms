@@ -42,23 +42,24 @@ After Contains Duplicate, Valid Anagram, and Two Sum, the daily session is the [
 Do this heading's TODO only. When it is empty, open [[file:STUDY_PLAN.md][STUDY_PLAN.md]].
 ** TODO C++ revival (45 min)
 Compile and run =cpp/DSA-Project=. Read =Append=, =Insert=, and =BinarySearchLoop= in =cpp/DSA-Project/ds/array.h=.
-1. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/][L1 Algorithms and computation]]. Notes: [[file:6.006-spring-2020/week-01/lectures/lecture-1-introduction.pdf][lecture 1 PDF]].
-2. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynamic-arrays/][L2 Dynamic arrays]]. Notes: [[file:6.006-spring-2020/week-01/lectures/lecture-2-data-structures.pdf][lecture 2 PDF]].
-3. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/][L3 Sets and sorting]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-3-sorting.pdf][lecture 3 PDF]].
-4. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/][L4 Hashing]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-4-hashing.pdf][lecture 4 PDF]].
+1. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/][L1 Algorithms and computation]]. Notes: [[file:6.006-spring-2020/week-01/lectures/lecture-1-introduction.pdf][lecture 1 PDF]]. CLRS chapters 1 and 3.
+2. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynamic-arrays/][L2 Dynamic arrays]]. Notes: [[file:6.006-spring-2020/week-01/lectures/lecture-2-data-structures.pdf][lecture 2 PDF]]. CLRS sections 10.1, 10.2, and 17.4.
+3. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/][L3 Sets and sorting]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-3-sorting.pdf][lecture 3 PDF]]. CLRS chapters 2 and 7.
+4. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/][L4 Hashing]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-4-hashing.pdf][lecture 4 PDF]]. CLRS chapter 11.
 5. NeetCode: two pointers, sliding window, binary search. Drill after L4.
-** Day (about 4.5 hours)
-Interview morning: one 20-minute Python easy. No new lecture.
+** Day (about 8 hours)
+Weekdays are a full workday. Saturday is study only, 10:00 to 4:00. Sunday is off.
 
-1. Do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes. Then read the CLRS sections named for that lecture in [[file:STUDY_PLAN.md][STUDY_PLAN.md]]. About 25 minutes.
-2. In [[file:log.org][log.org]], write four lines: pattern, when, time, space. Code that structure once from memory in Python. About 40 minutes.
-3. Two NeetCode mediums in Python. First untimed. Second capped at 30 minutes. About 90 minutes.
-4. One course problem in Python, or stop at 45 minutes and read that week's solutions PDF. About 45 minutes.
-5. Capture d. One sentence: what you would try first next time. About 10 minutes.
+1. 9:00 to 12:30. Open TODAY.md and do that task first. Then do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes. Then read the CLRS sections named for that lecture in [[file:STUDY_PLAN.md][STUDY_PLAN.md]]. About 25 minutes. In [[file:log.org][log.org]], write four lines: pattern, when, time, space. Code that structure once from memory in Python.
+2. 1:00 to 2:30. Jobs. Do the named task first. Stop at 2:30.
+3. 2:30 to 5:30. Two NeetCode mediums in Python. First untimed. Second capped at 30 minutes. Then one course problem, or stop at 45 minutes and read that week's solutions PDF. Capture d. One sentence: what you would try first next time.
 
-The week's C++ block replaces step 4 on a day with no interview.
-
+On an interview morning, do one 20-minute Python easy and skip the new lecture.
+The week's C++ block replaces the course problem on a day with no interview.
+Monday, November 23 ends the morning at 10:30 for an 11:00 appointment.
+Thursday, November 26 and Friday, November 27 stay empty.
 Later weeks live in the plan: trees and heaps, graphs, dynamic programming, then two timed sets a week.
+Leave a calendar file out of the repo until you ask for one.
 * Files
 Capture is C-c c or SPC a o c. Key p is a post-mortem. Key d is the 6.006 day log. Key o is outreach.
 - study/STUDY.org :: this file. Agenda reads it only.
