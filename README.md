@@ -2,7 +2,7 @@
 
 Open [TODAY.md](TODAY.md) and do that task first. It is one Python problem. After the first three problems, watch the [Python graph showcase](https://start.interviewing.io/showcase/hJ717oe4XhaB) for 25 minutes. Chapter replays are listed under When the book arrives in [study/STUDY.org](study/STUDY.org).
 
-When you get stuck, open a lecture from the [study plan](study/STUDY_PLAN.md). The plan covers [MIT 6.006, spring 2020](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/), taught by Demaine, Ku, and Solomon, with the matching chapters of CLRS, third edition. The C++ track is Abdul Bari's data-structures course. Weekdays on the Daily calendar are a full workday through Friday, December 18. Study is 9:00 to 12:30 and 2:30 to 5:30. Jobs are 1:00 to 2:30. Saturday is study only, 10:00 to 4:00. Thursday, November 26 and Friday, November 27 stay empty. This repo does not include a calendar file yet.
+When you get stuck, open a lecture from the [study plan](study/STUDY_PLAN.md). The plan covers [MIT 6.006, spring 2020](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/), taught by Demaine, Ku, and Solomon, with the matching chapters of CLRS, third edition. The C++ track is Abdul Bari's data-structures course. Weekdays on the Daily calendar run through 11:00, and Tuesday and Thursday continue to 1:00, through Friday, December 18. The focused blocks are 9:00 to 12:30 and 3:30 to 6:30. Exercise or yoga is 1:00 to 2:00. Jobs are 2:00 to 3:30. A lighter evening review runs 7:30 to 11:00. Saturday is study only and ends at 11:00. Thursday, November 26 and Friday, November 27 stay empty. This repo does not include a calendar file yet.
 
 ## Repository layout
 

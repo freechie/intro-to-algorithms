@@ -1,6 +1,6 @@
 # Study plan for MIT 6.006, spring 2020
 
-Open [TODAY.md](../TODAY.md), do that one task, and stop. When you get stuck, open a lecture from this file.
+Open [TODAY.md](../TODAY.md) and do that task first. When you get stuck, open a lecture from this file.
 
 The course is [MIT 6.006, spring 2020](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/), taught by Demaine, Ku, and Solomon. The [syllabus](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/) names Introduction to Algorithms, third edition, by Cormen, Leiserson, Rivest, and Stein. That book is CLRS. Read the sections named with the lecture you watch. About 25 minutes. The lecture notes stay the session. Beyond Cracking the Coding Interview replaces Cracking the Coding Interview. Its reading order is in [STUDY.org](STUDY.org). C++ work is in [DSA-Project](../cpp/DSA-Project/). You are already through arrays and strings in Abdul Bari's course.
 
@@ -29,15 +29,18 @@ The same steps are in the [DSA-Project readme](../cpp/DSA-Project/README.md).
 2. In [array.h](../cpp/DSA-Project/ds/array.h), read [Append](../cpp/DSA-Project/ds/array.h#L49), [Insert](../cpp/DSA-Project/ds/array.h#L50), and [BinarySearchLoop](../cpp/DSA-Project/ds/array.h#L57). Read those three only. About 20 minutes.
 3. Check C++ revival in the progress list at the bottom. The next new C++ code is the singly linked list in week 2.
 
-## Each study day, about 4.5 hours
+## Each study day
 
-1. Open the lecture below and watch at 1.5x. About 50 minutes. Then read the CLRS sections named for that lecture. About 25 minutes. Write four lines. Name the pattern, when it applies, the time, and the space.
-2. Code that structure once from memory in Python. About 40 minutes.
-3. Solve 2 mediums from the NeetCode section for that day, in Python. Leave the first one untimed. Cap the second at 30 minutes. About 90 minutes.
-4. If time is left, do the one course problem named for that day, in Python. Stop at 45 minutes and read the solutions PDF in that week's `problem-sets/` folder. About 45 minutes.
-5. Log one sentence in the progress list at the bottom. Say what you would try first next time. About 10 minutes.
+Weekdays run until 11:00. Tuesday and Thursday continue to 1:00. Saturday ends at 11:00. Sunday is off. The 9:00 block and the 3:30 block are the focused ones. The evening is lighter.
 
-Do the week's C++ block on one day with no interview, in place of step 4.
+1. 9:00 to 12:30. Open [TODAY.md](../TODAY.md) and do that task first. Watch the lecture at 1.5x. About 50 minutes. Then read the CLRS sections named for that lecture. About 25 minutes. Write four lines. Name the pattern, when it applies, the time, and the space. Code that structure once from memory in Python.
+2. 1:00 to 2:00. Exercise or yoga. Eat first if you have not eaten.
+3. 2:00 to 3:30. Jobs. The named task first. Stop at 3:30.
+4. 3:30 to 6:30. Solve 2 mediums from the NeetCode section for that day, in Python. Leave the first one untimed. Cap the second at 30 minutes. Then do the one course problem named for that day, or stop at 45 minutes and read the solutions PDF in that week's `problem-sets/` folder. Log one sentence. Say what you would try first next time.
+5. 7:30 to 11:00. Rewrite the morning pattern from memory. One problem you already started. Update the company notes if a follow-up is due. One sentence about tomorrow.
+6. 11:00 to 1:00 on Tuesday and Thursday. Stay with the one problem that is still open. No new lecture and no new applications.
+
+Do the week's C++ block on one day with no interview, in place of the course problem.
 
 On an interview day, do one 20-minute Python easy in the morning. Do not start a new lecture.
 

@@ -1,6 +1,6 @@
 # Today
 
-Do one problem, then stop.
+Do this first. It takes 25 minutes. The morning block continues until 12:30.
 
 **Contains Duplicate.** Arrays and hashing. Take 25 minutes.
 

@@ -47,13 +47,17 @@ Compile and run =cpp/DSA-Project=. Read =Append=, =Insert=, and =BinarySearchLoo
 3. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/][L3 Sets and sorting]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-3-sorting.pdf][lecture 3 PDF]]. CLRS chapters 2 and 7.
 4. [[https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/][L4 Hashing]]. Notes: [[file:6.006-spring-2020/week-02/lectures/lecture-4-hashing.pdf][lecture 4 PDF]]. CLRS chapter 11.
 5. NeetCode: two pointers, sliding window, binary search. Drill after L4.
-** Day (about 8 hours)
-Weekdays are a full workday. Saturday is study only, 10:00 to 4:00. Sunday is off.
+** Day
+Weekdays run until 11:00. Tuesday and Thursday continue to 1:00. Saturday is study only and ends at 11:00. Sunday is off.
 
-1. 9:00 to 12:30. Open TODAY.md and do that task first. Then do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes. Then read the CLRS sections named for that lecture in [[file:STUDY_PLAN.md][STUDY_PLAN.md]]. About 25 minutes. In [[file:log.org][log.org]], write four lines: pattern, when, time, space. Code that structure once from memory in Python.
-2. 1:00 to 2:30. Jobs. Do the named task first. Stop at 2:30.
-3. 2:30 to 5:30. Two NeetCode mediums in Python. First untimed. Second capped at 30 minutes. Then one course problem, or stop at 45 minutes and read that week's solutions PDF. Capture d. One sentence: what you would try first next time.
+1. 9:00 to 12:30. Focused. Open TODAY.md and do that task first. Then do the TODO under * 6.006. Watch a lecture at 1.5×. About 50 minutes. Then read the CLRS sections named for that lecture in [[file:STUDY_PLAN.md][STUDY_PLAN.md]]. About 25 minutes. In [[file:log.org][log.org]], write four lines: pattern, when, time, space. Code that structure once from memory in Python.
+2. 1:00 to 2:00. Exercise or yoga. Eat first if you have not eaten.
+3. 2:00 to 3:30. Jobs. Do the named task first. Stop at 3:30.
+4. 3:30 to 6:30. Focused. Two NeetCode mediums in Python. First untimed. Second capped at 30 minutes. Then one course problem, or stop at 45 minutes and read that week's solutions PDF. Capture d. One sentence: what you would try first next time.
+5. 7:30 to 11:00. Lighter. Rewrite the morning pattern from memory. One problem you already started. Update [[file:../notes/companies.org][companies.org]] if a follow-up is due. One sentence about tomorrow.
+6. 11:00 to 1:00 on Tuesday and Thursday. Focused. Stay with the one problem that is still open. No new lecture and no new applications.
 
+Saturday is 10:00 to 12:30, exercise 1:00 to 2:00, practice 2:00 to 6:00, then the lighter evening 7:30 to 11:00.
 On an interview morning, do one 20-minute Python easy and skip the new lecture.
 The week's C++ block replaces the course problem on a day with no interview.
 Monday, November 23 ends the morning at 10:30 for an 11:00 appointment.
