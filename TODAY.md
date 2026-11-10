@@ -1,22 +1,22 @@
 # Today
 
-One problem. Stop when it is done.
+Do one problem, then stop.
 
-**Contains Duplicate.** Arrays and hashing. 25 minutes.
+**Contains Duplicate.** Arrays and hashing. Take 25 minutes.
 
-Say the pattern, a slow way, and the time cost before you type.
+Before you type, say the pattern, a slow way, and the time cost.
 
-Open the problem: https://leetcode.com/problems/contains-duplicate/
+The prompt is [Contains Duplicate on LeetCode](https://leetcode.com/problems/contains-duplicate/).
 
-Write the solution in `practice/python/contains_duplicate.py`.
+Write the solution in [contains_duplicate.py](practice/python/contains_duplicate.py).
 
-When the solution is in that file:
+When the solution is in that file, run:
 
 ```bash
 python3 practice/today.py done
 ```
 
-If the timer ends and the solution is still missing:
+If the timer ends and the solution is still missing, run:
 
 ```bash
 python3 practice/today.py stuck

@@ -1,30 +1,35 @@
-# DSA Tasks
+# DSA tasks
 
 ## Done
-- [x] **udemy-s4-1**: Array Operations
-- [x] **udemy-s5-1**: String Ops
-- [x] **udemy-sec1**: Introduction
-- [x] **udemy-sec2**: Recursion
-- [x] **dsa-done-templates**: C++ template support (`Array<T>`)
-- [x] **dsa-done-iterators**: Iterator support (`begin`/`end`)
-- [x] **dsa-done-3**: Dynamic resizing
-- [x] **dsa-done-6**: Duplicate-finding methods
 
-## In Progress
-- [/] **dsa-task-4**: Makefile/CMake workflow
+- [x] `udemy-s4-1` Array operations
+- [x] `udemy-s5-1` String operations
+- [x] `udemy-sec1` Introduction
+- [x] `udemy-sec2` Recursion
+- [x] `dsa-done-templates` C++ templates for `Array<T>` in [array.h](../../cpp/DSA-Project/ds/array.h)
+- [x] `dsa-done-iterators` Iterators, `begin` and `end`
+- [x] `dsa-done-3` Dynamic resizing
+- [x] `dsa-done-6` Duplicate-finding methods
+
+## In progress
+
+- [/] `dsa-task-4` Makefile and CMake. [DSA-Project](../../cpp/DSA-Project/) has no Makefile yet.
 
 ## Next
-- [ ] **udemy-s7-1**: Singly Linked List (Week 2 of `study/STUDY_PLAN.md`; do not restart sections 1–5)
-- [ ] **dsa-task-3**: Merge/Quick Sort in `Array` (after Week 1; parked until the linked list exists)
+
+- [ ] `udemy-s7-1` Singly linked list. This is week 2 of the [study plan](../STUDY_PLAN.md). Do not restart sections 1 to 5.
+- [ ] `dsa-task-3` Merge sort and quick sort on `Array`. Wait until the linked list exists.
 
 ## Parked
-- [ ] **udemy-s6-1**: Matrix representations (Lower Triangular done; Diagonal, Upper, Symmetric wait until interviews are steady)
+
+- [ ] `udemy-s6-1` Matrix representations. Lower triangular is done. Diagonal, upper, and symmetric wait until interviews are steady.
 
 ## Backlog
-- [ ] **udemy-s7-2**: Linked-list variants
-- [ ] Stacks and Queues (`clrs-ch10`, `udemy-s9-1`, `udemy-s10-1`)
-- [ ] Hash Table Collision Strategies (`udemy-s12-1`)
-- [ ] Advanced Sorting (`udemy-s13-2`)
-- [ ] Trees and BSTs (`udemy-s11-1` to `udemy-s11-3`)
-- [ ] Graphs and Traversals (`udemy-s14-1`, `udemy-s14-2`)
-- [ ] Dynamic Programming (`mit-lec15` to `mit-lec18`)
+
+- [ ] `udemy-s7-2` Linked-list variants
+- [ ] Stacks and queues, `clrs-ch10`, `udemy-s9-1`, and `udemy-s10-1`
+- [ ] Hash table collision strategies, `udemy-s12-1`
+- [ ] Advanced sorting, `udemy-s13-2`
+- [ ] Trees and BSTs, `udemy-s11-1` through `udemy-s11-3`
+- [ ] Graphs and traversals, `udemy-s14-1` and `udemy-s14-2`
+- [ ] Dynamic programming, `mit-lec15` through `mit-lec18`

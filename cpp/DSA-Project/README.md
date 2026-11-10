@@ -1,79 +1,59 @@
-# DSA-Project: C++ Data Structures and Algorithms
+# DSA-Project
 
-This project provides robust, feature-rich, and generic implementations of common data structures and algorithms in C++.
+C++ data structures and algorithms. The code you use now is `Array<T>` in [array.h](ds/array.h), plus the string functions in [strings.h](algo/strings.h).
 
-## Data Structures
+`Array<T>` is a header-only template, which is how C++ templates are usually written. [main.cpp](main.cpp) is a small menu you can run for `Array<int>`. It also runs the string functions first.
 
-### Generic Advanced C++ Dynamic Array
+## What Array can do
 
-This project provides a robust, feature-rich, and generic implementation of a dynamic array in C++ using templates (`Array<T>`). This design allows the array to store a wide variety of data types, such as `int`, `double`, or `std::string`, making it a highly reusable data structure.
+`Array<T>` can hold any type that you can copy and compare, including `int`, `double`, and `std::string`.
 
-The implementation is a header-only library (`ds/array.h`), which is standard practice for C++ templates. A `main.cpp` file provides an interactive command-line interface for demonstrating and testing the features of an `Array<int>`.
+`begin` and `end` work with range-based `for` and with many standard algorithms.
 
-#### Key Features
+```cpp
+Array<std::string> arr;
+arr.Append("Hello");
+arr.Append("World");
 
-##### 1. Generic and Modern C++ Integration
+for (const auto& value : arr) {
+    std::cout << value << " ";
+}
+```
 
-*   **Template-Based Design:** Built as a template class (`Array<T>`), allowing it to be instantiated with any data type that supports standard comparison and copy operations.
-*   **Iterator Support:** The class includes `begin()` and `end()` methods, making it fully compatible with C++'s range-based `for` loops and many Standard Library algorithms.
-    ```cpp
-    Array<std::string> arr;
-    arr.Append("Hello");
-    arr.Append("World");
-    
-    for (const auto& value : arr) {
-        std::cout << value << " "; // Prints "Hello World "
-    }
-    ```
+That loop prints `Hello World`.
 
-##### 2. Modern C++ Memory Management (The Rule of Five)
+The class follows the rule of five. The destructor frees the buffer. Copy construction and copy assignment copy the elements. Move construction and move assignment take the buffer from a temporary.
 
-*   **Destructor:** Properly deallocates memory.
-*   **Copy Constructor & Copy Assignment:** Implements deep copying to prevent data corruption.
-*   **Move Constructor & Move Assignment:** Provides efficient resource transfer from temporary objects.
+The array grows when it runs out of room. `std::out_of_range` and `std::logic_error` report a bad operation. Search and `Get` return `std::optional`, so a miss is not the number `-1`.
 
-##### 3. Robustness and Safety
+Operations:
 
-*   **Dynamic Resizing:** The array automatically grows in size when it runs out of space, preventing overflow errors.
-*   **Exception Handling:** Uses `std::out_of_range` and `std::logic_error` to signal invalid operations.
-*   **`std::optional`:** Search and `Get` functions return `std::optional<T>` to safely handle cases where a value may not be found or an index is invalid, avoiding the use of magic numbers like `-1`.
+- Core operations are `Append`, `Insert`, `Delete`, `Get`, and `Set`.
+- Search is `LinearSearch`, which can move a hit to the front, and `BinarySearchLoop`.
+- Summaries are `Max`, `Min`, `Sum`, `Avg`, and `isSorted`.
+- Rearrangement is `Reverse`, `ReverseInPlace`, `InsertSort`, and `Rearrange`. `Reverse` allocates a new array. `Rearrange` partitions numbers.
+- Set operations on sorted arrays are `Merge`, `Union`, `Intersection`, and `Difference`.
+- Missing-element helpers cover one miss or many, in sorted and unsorted number arrays.
+- Duplicate helpers cover sorted and unsorted arrays.
 
-##### 4. Comprehensive Functionality
+## String functions
 
-*   **Core Operations:** `Append`, `Insert`, `Delete`, `Get`, `Set`.
-*   **Search Algorithms:** `LinearSearch` (with move-to-front optimization) and `BinarySearchLoop`.
-*   **Array Analysis:** `Max`, `Min`, `Sum`, `Avg`, `isSorted`.
-*   **Manipulation:** `Reverse` (out-of-place), `ReverseInPlace`, `InsertSort`, and `Rearrange` (partitioning for numeric types).
-*   **Set Operations (for sorted arrays):** `Merge`, `Union`, `Intersection`, `Difference`.
-*   **Advanced Algorithms:**
-    *   Finding single or multiple missing elements in both sorted and unsorted numeric arrays.
-    *   Finding duplicate elements using various techniques (for sorted and unsorted arrays).
+The declarations are in [strings.h](algo/strings.h). The code is in [strings.cpp](algo/strings.cpp).
 
-## Algorithms
+- `reverse_string` reverses a string in place.
+- `is_palindrome` checks whether a string is a palindrome.
+- `find_duplicates_hashing` finds duplicate characters with a hash map.
+- `find_duplicates_bitwise` finds duplicate characters with bits.
+- `are_anagrams_hash` checks an anagram with a hash map.
+- `are_anagrams_bitwise` checks an anagram with bits.
 
-### String Algorithms
+## Compile and run
 
-A collection of string manipulation algorithms are available in `algo/strings.h` and implemented in `algo/strings.cpp`.
+There is no Makefile yet. From this directory, compile `main.cpp` with a C++20 compiler. You do not compile `array.h`. The template implementation is already in that header.
 
-*   **`reverse_string`**: Reverses a string in-place.
-*   **`is_palindrome`**: Checks if a string is a palindrome.
-*   **`find_duplicates_hashing`**: Finds duplicate characters in a string using a hash map.
-*   **`find_duplicates_bitwise`**: Finds duplicate characters in a string using bitwise operations.
-*   **`are_anagrams_hash`**: Checks if two strings are anagrams using a hash map.
-*   **`are_anagrams_bitwise`**: Checks if two strings are anagrams using bitwise operations.
+```bash
+g++ -std=gnu++20 -Wall -Wextra main.cpp algo/strings.cpp -o advanced_array_demo
+./advanced_array_demo
+```
 
-## How to Compile and Run
-
-1.  Navigate to the project's root directory.
-2.  Compile the `main.cpp` source file using a C++20 compatible compiler.
-
-    ```bash
-    g++ -std=gnu++20 -Wall -Wextra main.cpp algo/strings.cpp -o advanced_array_demo
-    ```
-    *Note: Because `Array` is a template class, all of its implementation is contained within the `ds/array.h` header file. There is no `array.cpp` file to compile.*
-
-3.  Run the executable:
-    ```bash
-    ./advanced_array_demo
-    ```
-4.  The program will first demonstrate the string algorithms and then provide an interactive menu to explore the features of an `Array<int>`.
+The program prints the string demos, then opens a menu for `Array<int>`.
