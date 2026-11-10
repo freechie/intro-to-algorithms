@@ -79,6 +79,7 @@ Carthage/Build
 !.env.example
 
 # Python practice
+.venv/
 __pycache__/
 *.pyc
 
