@@ -1,6 +1,6 @@
 # Introduction to Algorithms
 
-Open [TODAY.md](TODAY.md), do that one task, and stop. It is one Python problem. After the first three problems, watch one mock interview on [bctci.co](https://bctci.co).
+Open [TODAY.md](TODAY.md), do that one task, and stop. It is one Python problem. After the first three problems, watch the [Python graph showcase](https://start.interviewing.io/showcase/hJ717oe4XhaB) for 25 minutes. Chapter replays are listed under When the book arrives in [study/STUDY.org](study/STUDY.org).
 
 When you get stuck, open a lecture from the [study plan](study/STUDY_PLAN.md). The plan covers [MIT 6.006, spring 2020](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/), taught by Demaine, Ku, and Solomon, and the C++ track from Abdul Bari's data-structures course.
 

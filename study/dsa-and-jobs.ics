@@ -1,0 +1,350 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//intro-to-algorithms//DSA and jobs//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DSA and jobs
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dsa-jobs-20261110T090000-1@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261110T090000
+DTEND;TZID=America/New_York:20261110T113000
+SUMMARY:Study: Contains Duplicate\, then C++ revival
+DESCRIPTION:25 minutes. Contains Duplicate on LeetCode: https://leetcode.
+ com/problems/contains-duplicate/. Write practice/python/contains_duplicat
+ e.py. Then run python3 practice/today.py done.\\n\\n45 minutes. Compile c
+ pp/DSA-Project. Read Append\, Insert\, and BinarySearchLoop in cpp/DSA-Pr
+ oject/ds/array.h.\\n\\nIf time is left\, skim the binary-search pages for
+  15 minutes. Do not start problem 29.1 today.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261110T130000-2@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261110T130000
+DTEND;TZID=America/New_York:20261110T134500
+SUMMARY:Jobs: write the company list
+DESCRIPTION:30 to 45 minutes. Open notes/companies.org. One heading per c
+ ompany. STAGE is list\, research\, batch\, or wait. Stop when the timer e
+ nds.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261111T090000-3@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261111T090000
+DTEND;TZID=America/New_York:20261111T113000
+SUMMARY:Study: Lecture 1\, algorithms and computation
+DESCRIPTION:Watch at 1.5x. https://ocw.mit.edu/courses/6-006-introduction
+ -to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation
+ /\\n\\nNotes: study/6.006-spring-2020/week-01/lectures/lecture-1-introduc
+ tion.pdf\\n\\nIn study/log.org write pattern\, when\, time\, and space. T
+ hen code that structure once from memory in Python.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261111T130000-4@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261111T130000
+DTEND;TZID=America/New_York:20261111T134500
+SUMMARY:Jobs: research 3 companies
+DESCRIPTION:Add 3 companies to notes/companies.org. Research only. Do not
+  start a new application unless the company list is already written.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261112T090000-5@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261112T090000
+DTEND;TZID=America/New_York:20261112T113000
+SUMMARY:Study: Lecture 2\, dynamic arrays
+DESCRIPTION:Watch at 1.5x. https://ocw.mit.edu/courses/6-006-introduction
+ -to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynami
+ c-arrays/\\n\\nNotes: study/6.006-spring-2020/week-01/lectures/lecture-2-
+ data-structures.pdf\\n\\nWrite four lines in study/log.org. Code the stru
+ cture once from memory in Python.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261112T130000-6@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261112T130000
+DTEND;TZID=America/New_York:20261112T134500
+SUMMARY:Jobs: apply to 2 roles
+DESCRIPTION:Submit 2 applications. Update STAGE in notes/companies.org. S
+ top at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261113T090000-7@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261113T090000
+DTEND;TZID=America/New_York:20261113T113000
+SUMMARY:Study: Lecture 3\, sets and sorting
+DESCRIPTION:Watch at 1.5x. https://ocw.mit.edu/courses/6-006-introduction
+ -to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/\\n\\nNot
+ es: study/6.006-spring-2020/week-02/lectures/lecture-3-sorting.pdf\\n\\nW
+ rite four lines in study/log.org. Code the structure once from memory in 
+ Python.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261113T130000-8@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261113T130000
+DTEND;TZID=America/New_York:20261113T134500
+SUMMARY:Jobs: apply to 2 roles
+DESCRIPTION:Submit 2 applications. Update STAGE in notes/companies.org. S
+ top at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261114T100000-9@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261114T100000
+DTEND;TZID=America/New_York:20261114T123000
+SUMMARY:Study: Lecture 4\, hashing
+DESCRIPTION:Watch at 1.5x. https://ocw.mit.edu/courses/6-006-introduction
+ -to-algorithms-spring-2020/resources/lecture-4-hashing/\\n\\nNotes: study
+ /6.006-spring-2020/week-02/lectures/lecture-4-hashing.pdf\\n\\nThen one N
+ eetCode binary-search problem. If the 15-minute BCTCI skim is still open\
+ , do that first. Do not start the 90-minute 29.1 block unless the skim is
+  done.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261116T090000-10@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261116T090000
+DTEND;TZID=America/New_York:20261116T113000
+SUMMARY:Study: two NeetCode mediums
+DESCRIPTION:Arrays and hashing. First problem untimed. Second problem cap
+ ped at 30 minutes. Log one sentence in study/log.org.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261116T130000-11@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261116T130000
+DTEND;TZID=America/New_York:20261116T134500
+SUMMARY:Jobs: follow up\, then 2 new roles
+DESCRIPTION:Send any follow-ups that are due. Then submit 2 applications.
+  Update notes/companies.org. Stop at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261117T090000-12@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261117T090000
+DTEND;TZID=America/New_York:20261117T100000
+SUMMARY:Study: problem set 2-4\, MixBookTube
+DESCRIPTION:Stop at 45 minutes and read the solutions PDF.\\n\\nQuestions
+ : study/6.006-spring-2020/week-03/problem-sets/problem-set-2-questions.pd
+ f\\nSolutions: study/6.006-spring-2020/week-03/problem-sets/problem-set-2
+ -solutions.pdf\\n\\nLog one sentence in study/log.org. MixBookTube is the
+  fictional company in the problem.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261117T130000-13@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261117T130000
+DTEND;TZID=America/New_York:20261117T134500
+SUMMARY:Jobs: apply to 2 roles
+DESCRIPTION:Submit 2 applications. Update STAGE in notes/companies.org. S
+ top at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261118T090000-14@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261118T090000
+DTEND;TZID=America/New_York:20261118T113000
+SUMMARY:Study: Lecture 6\, binary trees
+DESCRIPTION:Watch at 1.5x. https://ocw.mit.edu/courses/6-006-introduction
+ -to-algorithms-spring-2020/resources/lecture-6-binary-trees-part-1/\\n\\n
+ Notes: study/6.006-spring-2020/week-04/lectures/lecture-6-binary-trees-pa
+ rt-1.pdf\\n\\nWrite four lines in study/log.org. Code the structure once 
+ from memory in Python.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261118T130000-15@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261118T130000
+DTEND;TZID=America/New_York:20261118T134500
+SUMMARY:Jobs: apply to 2 roles
+DESCRIPTION:Submit 2 applications. Update STAGE in notes/companies.org. S
+ top at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261119T090000-16@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261119T090000
+DTEND;TZID=America/New_York:20261119T113000
+SUMMARY:Study: Lecture 8\, binary heaps
+DESCRIPTION:Watch at 1.5x. https://ocw.mit.edu/courses/6-006-introduction
+ -to-algorithms-spring-2020/resources/lecture-8-binary-heaps/\\n\\nNotes: 
+ study/6.006-spring-2020/week-05/lectures/lecture-8-binary-heaps.pdf\\n\\n
+ Write four lines in study/log.org. Code the structure once from memory in
+  Python.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261119T130000-17@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261119T130000
+DTEND;TZID=America/New_York:20261119T134500
+SUMMARY:Jobs: apply to 2 roles
+DESCRIPTION:Submit 2 applications. Update STAGE in notes/companies.org. S
+ top at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261120T090000-18@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261120T090000
+DTEND;TZID=America/New_York:20261120T103000
+SUMMARY:Study: skim AVL\, stop before rotations
+DESCRIPTION:Skim only. https://ocw.mit.edu/courses/6-006-introduction-to-
+ algorithms-spring-2020/resources/lecture-7-binary-trees-part-2-avl/\\n\\n
+ Notes: study/6.006-spring-2020/week-04/lectures/lecture-7-binary-trees-pa
+ rt-2-avl.pdf\\n\\nKnow that AVL keeps the tree balanced. Stop before you 
+ memorize rotations.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261120T130000-19@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261120T130000
+DTEND;TZID=America/New_York:20261120T134500
+SUMMARY:Jobs: apply to 2 roles
+DESCRIPTION:Submit 2 applications. Update STAGE in notes/companies.org. S
+ top at 45 minutes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261121T100000-20@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261121T100000
+DTEND;TZID=America/New_York:20261121T130000
+SUMMARY:Study: C++ singly linked list
+DESCRIPTION:About 3 hours. Add cpp/DSA-Project/ds/linked_list.h. Insert a
+ t the head\, insert at the tail\, delete\, and reverse. This is udemy-s7-
+ 1 on the task list.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dsa-jobs-20261123T090000-21@intro-to-algorithms
+DTSTAMP:20261110T014300Z
+DTSTART;TZID=America/New_York:20261123T090000
+DTEND;TZID=America/New_York:20261123T103000
+SUMMARY:Study: NeetCode stack and linked list
+DESCRIPTION:Stop at 10:30. You have an 11:00 appointment. Do one problem 
+ if that is all that fits.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

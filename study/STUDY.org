@@ -15,7 +15,7 @@ Do this heading's TODO only. The list under it waits.
 1. When the BCTCI TODO is the company list, do that item.
 2. Stop.
 ** When the book arrives
-Read in this order. These lines are not TODOs.
+Read in this order. These lines are not TODOs. Pause when the book shows a speech bubble and watch that clip before the next problem set. Sign in at [[https://bctci.co][bctci.co]] if the page asks for the book account.
 
 1. Worksheets PDF p.1
 2. Ch 18
@@ -23,10 +23,20 @@ Read in this order. These lines are not TODOs.
 4. Tier 1 catalog 25-36. Continue Binary Search. Do not restart it.
 5. Tier 2 later
 6. Ch 8 then 9 on manager days
-7. Behavioral 15-17 with mocks
+7. Behavioral 15-17 with live mocks
 8. Offers 10-14 when an offer exists
 
 Sliding Windows waits until after Two Pointers.
+
+Interview replays. Watch only the clip for the section you just reached.
+
+- Chapter 4, in the first-seven-chapters PDF. [[https://bctci.co/interviewers-replay-1][Interviewers replay 1]], 45:50 to the end. The question is 3Sum. The candidate explains a solution, then the code has bugs. This clip shows how to watch the others.
+- Chapter 29, after Search in Sorted Array and boundary thinking, before guess-and-check. [[https://bctci.co/binary-search-replay-1][Binary search replay 1]], 38:55 to the end. Chapter page: [[https://bctci.co/binary-search][binary search]].
+- End of chapter 29. [[https://bctci.co/binary-search-replay-2][Binary search replay 2]], 2:45 to 26:07.
+- Chapter 38, before the fixed-length window problems. [[https://bctci.co/sliding-windows-replay-1][Sliding windows replay 1]], 10:36 to 47:30. Chapter page: [[https://bctci.co/sliding-windows][sliding windows]].
+- Chapter 38, after the minimum-window recipe. [[https://bctci.co/sliding-windows-replay-2][Sliding windows replay 2]], 4:15 to 43:23.
+
+After Contains Duplicate, Valid Anagram, and Two Sum, the daily session is the [[https://start.interviewing.io/showcase/hJ717oe4XhaB][Python graph showcase]], 25 minutes. Write one sentence about what the candidate said before they coded.
 * 6.006
 Do this heading's TODO only. When it is empty, open [[file:STUDY_PLAN.md][STUDY_PLAN.md]].
 ** TODO C++ revival (45 min)
